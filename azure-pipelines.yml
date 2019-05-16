@@ -2,7 +2,7 @@ pool:
   vmImage: 'Ubuntu 16.04'
 
 variables:
-  imageName: 'rapiddevpro/my-node-app'
+  imageName: 'lcleofa/my-node-app'
   #dockerId: 'rapiddevpro'
   dockerId: 'lcleofa'
 
