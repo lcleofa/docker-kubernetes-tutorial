@@ -33,3 +33,4 @@ spec:
           image: lcleofa/my-node-app
           ports:
             - containerPort: 4000
+      imagePullPolicy: Always
