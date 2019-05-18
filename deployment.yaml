@@ -22,7 +22,7 @@ kind: Deployment
 metadata:
   name: my-node-app-deployment
 spec:
-  replicas: 2
+  replicas: 3
   template:
     metadata:
       labels:
