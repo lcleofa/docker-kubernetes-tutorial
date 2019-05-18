@@ -28,8 +28,9 @@ spec:
       labels:
         app: my-node-app
     spec:
-      containers:
+       containers:
         - name: my-node-app-container
           image: lcleofa/my-node-app
           ports:
             - containerPort: 4000
+       imagePullPolicy: Always
