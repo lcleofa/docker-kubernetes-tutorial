@@ -30,7 +30,7 @@ spec:
     spec:
        containers:
         - name: my-node-app-container
-          image: lcleofa/my-node-app
+          image: lcleofa/my-node-app:latest
+          imagePullPolicy: Always 
           ports:
             - containerPort: 4000
-       imagePullPolicy: Always
