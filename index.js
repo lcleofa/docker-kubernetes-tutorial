@@ -2,7 +2,7 @@ const express = require('express')
 const app = express()
 
 app.use('*', (req, res, next) => {
-    res.send('<h1>Hello how are you, from express app powered by docker and kubernetes for Stedin-net datalake DLKP</h1>')
+    res.send('<h1>Hi hoe gaat ie, from express app powered by docker and kubernetes for Stedin-net datalake DLKP</h1>')
 })
 
 app.listen(4000, () => {
